@@ -14,6 +14,10 @@ ZnO MOVs are nonlinear components used in surge-protection applications. Evaluat
 
 This repository demonstrates the software structure of that workflow. It does **not** establish a field-ready diagnostic system or claim performance on unseen real-world MOV measurements.
 
+## System Architecture
+
+See the [System Architecture Diagram](docs/ARCHITECTURE.md) for the complete machine learning pipeline and its components.
+
 ## Methodology
 
 ```text
