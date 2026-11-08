@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Private datasets and model artifacts
+*.xlsx
+*.xls
+*.pkl
+*.joblib
+*.pl4
+*.lis
+*.atp
+*.acp
+
+# Block all data by default
+data/*
+
+# Allow synthetic demonstration data
+!data/synthetic/
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Private archives
+*.zip
+*.7z
+
+# Local configuration
+.env
+.env.*
