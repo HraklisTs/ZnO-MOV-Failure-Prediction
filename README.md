@@ -1,4 +1,4 @@
-﻿# ZnO MOV Failure Prediction Using Machine Learning
+# ZnO MOV Failure Prediction Using Machine Learning
 
 **Electrical Engineering Research | Waveform Feature Engineering | Binary Classification**
 
@@ -130,18 +130,30 @@ The generator writes `data/synthetic/waveforms.csv` locally. The CSV is excluded
 
 ```text
 ZnO-MOV-Failure-Prediction/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ generate_synthetic_data.py
-â”‚   â””â”€â”€ train_models.py
-â”œâ”€â”€ tests/
-â”‚   â””â”€â”€ test_synthetic_data.py
-â””â”€â”€ docs/
-    â””â”€â”€ SETUP.md
-```
-
-The generated `data/synthetic/waveforms.csv` file is local and intentionally not tracked by Git.
+|-- .github/
+|   `-- workflows/
+|       `-- tests.yml
+|-- data/
+|   `-- synthetic/
+|-- docs/
+|   |-- ARCHITECTURE.md
+|   |-- RESULTS.md
+|   `-- SETUP.md
+|-- figures/
+|   |-- confusion_matrix_logistic_regression.png
+|   |-- confusion_matrix_random_forest.png
+|   |-- confusion_matrix_svm.png
+|   |-- feature_importance.png
+|   `-- model_comparison.png
+|-- src/
+|   |-- evaluate_models.py
+|   |-- generate_synthetic_data.py
+|   `-- train_models.py
+|-- tests/
+|   `-- test_synthetic_data.py
+|-- .gitignore
+|-- README.md
+`-- requirements.txt
 
 ## Research Integrity, Privacy, and Limitations
 
@@ -152,8 +164,8 @@ The generated `data/synthetic/waveforms.csv` file is local and intentionally not
 
 ## Author
 
-**Iraklis Tsaousidis**  
-Diploma Thesis â€” Electrical and Computer Engineering  
+**Iraklis Tsaousidis**
+Diploma Thesis - Electrical and Computer Engineering
 **Technical University of Crete**
 
 ---
